@@ -1,4 +1,11 @@
-class NamedCow
-{
-
+class NamedCow extends Cow{
+	private myName;
+	public NamedCow(String type,String cowName, String sound) {
+		myName = cowName;
+		myType = type;         
+        mySound = sound;  
+	}
+	public String getName() {
+		return myName;
+	}
 }
